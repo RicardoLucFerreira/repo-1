@@ -1,0 +1,21 @@
+git config --global user.email "email@email.com.br"
+git config --global user.name "NomeUsuario"
+
+git config --global --unset-all user.name
+
+git config --global -l
+
+git init
+git status
+
+git add . --> Commita todos os arquivos
+git add <NomeArquivo> --> Commita arquivo especifico 
+
+git log
+
+cd .git
+rm index.lock 
+
+.gitgnore
+
+
